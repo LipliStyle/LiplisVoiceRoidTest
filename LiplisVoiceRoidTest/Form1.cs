@@ -21,12 +21,16 @@ namespace LiplisVoiceRoidTest
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //ウインドウの名前
             string windowName = "VOICEROID＋ 東北ずん子 EX";
+
+            //EXEのパス
             string exePath = "C:\\Program Files (x86)\\AHS\\VOICEROID+\\ZunkoEX\\VOICEROID.exe";
 
-
+            //インスタンス化
             LpsVoiceRoid lvr = new LpsVoiceRoid(new msgVoiceRoid(windowName, exePath));
 
+            //おしゃべり
             lvr.addMessage(textBox1.Text);
         }
     }
