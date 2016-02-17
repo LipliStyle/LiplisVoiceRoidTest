@@ -4,3 +4,4 @@
 MITライセンスです。
 
 VOICEROIDの操作の部分は、民安TALKのソースを使用させて頂いています。
+http://publish-tool.blogspot.jp/search/label/source
